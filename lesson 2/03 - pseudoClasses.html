@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS rules for pseudo-classes */
+    /* Styling links when hovered */
+    a:hover {
+      color: red;
+      text-decoration: line-through;
+    }  
+
+    /* Styling the first child element of a parent */
+    li:first-child {
+      font-weight: bold;
+      color: orangered;
+    }
+
+    /* Styling an element that is being clicked */
+    button:hover {
+      background-color: orange;
+      color: #fff;
+    }
+
+    button:active {
+      background-color: #f00;
+      color: #fff;
+    }
+
+    /* Styling the last child element of a parent */
+    p:last-child {
+      color: blue;
+    }
+
+    li:last-child {
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pseudo-Classes Example</h1>
+  
+  <a href="#">Hover me</a>
+  
+  <ul>
+    <li>First child</li>
+    <li>Second child</li>
+    <li>Third child</li>
+  </ul>
+  
+  <button>Click me</button>
+  
+  <div class="container">
+    <p>First child</p>
+    <p>Last child</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Select the <p> element within the <div> element */
+        div p {
+            color: red;
+        }
+        
+        /* Select the <p> element immediately following the <div> element */
+        div + p {
+            color: blue;
+        }
+        
+        /* Select all <p> elements that are descendants of the <div> element */
+        div > p {
+            text-transform: uppercase;
+        }
+        
+        /* Select the <span> element within the <p> element that is a descendant of the <div> element */
+        div p ~ span {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph within a div.</p>
+        <span>This is a span within a paragraph.</span>
+    </div>
+    <p>This is a paragraph immediately following a div.</p>
+</body>
+</html>
