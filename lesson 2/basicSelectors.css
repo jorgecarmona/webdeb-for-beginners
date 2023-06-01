@@ -1,0 +1,59 @@
+/* Universal selector */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Type selector */
+p {
+  color: blue;
+  font-size: 22px;
+}
+
+
+span {
+  text-transform: uppercase;
+}
+
+div {
+  font-style: italic;
+}
+
+/* 
+  Class selector
+  . = attributo de class
+*/
+.pipe {
+  color: orange;
+}
+
+/* 
+  ID selector 
+  # busca attributo de Id
+*/
+#big {
+  text-transform: uppercase;
+}
+
+#container {
+  background-color: burlywood;
+}
+
+/* Attribute selector */
+[id=container] {
+  border: 3px solid purple;
+}
+
+[name=hello] {
+  background-color: blueviolet;
+}
+
+/* Grouping selector */
+#big, .pipe {
+  color: black;
+}

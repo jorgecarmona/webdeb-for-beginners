@@ -2,60 +2,18 @@
 <html>
 <head>
     <title>Basic CSS Selectors Example</title>
-
-    <style>
-        /* Universal selector */
-        * {
-            color: red;
-        }
-
-        /* Type selector */
-        p {
-            color: blue;
-            font-size: 22px;
-        }
-
-
-        span {
-            text-transform: uppercase;
-        }
-
-        div {
-            font-style: italic;
-        }
-
-        /* Class selector */
-        .pipe {
-            color: orange;
-        }
-        
-        /* ID selector */
-        #big {
-            text-transform: uppercase;
-        }
-
-        #container {
-            background-color: burlywood;
-        }
-        
-        /* Attribute selector */
-        [id=container] {
-            border: 3px solid purple;
-        }
-        
-        /* Grouping selector */
-        #big, .pipe {
-            color: black;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="basicSelectors.css">
 </head>
 <body>
-    <h1 id="big">Hello, World!</h1>
+    <h1 id="big" name="hello">Hello, World!</h1>
     <p class="pipe">This is a paragraph.</p>
     <div id="container">
-        <p>This is another paragraph.</p>
+        <p class="spacious">This is another paragraph.</p>
         <span class="pipe">Some text in a span.</span>
     </div>
+    <ul>
+        <li class="spacious elegant">hola</li>
+        <li class="spacious">hola</li>
+    </ul>
 </body>
 </html>

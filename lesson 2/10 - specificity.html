@@ -1,0 +1,36 @@
+<!-- 
+  Specificity online calculator
+  https://specificity.keegan.st/
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Specificity Example</title>
+  <style>
+    /* Select the element with id #myApp */
+    #myApp {
+      color: red;
+    }
+    /* Select the element with class of .myClass */
+    .myClass {
+      color: blue;
+    }
+    /* Select the element with element of div */
+    div {
+      color: red;
+    }
+
+    #myApp.hola {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Specificity Example</h1>
+  <div id="myApp" class="myClass">
+    This shows specificity
+  </div>
+  <span id="myApp" class="hola">hola</span>
+</body>
+</html>
+
