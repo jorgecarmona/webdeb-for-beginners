@@ -1,3 +1,9 @@
+:root {
+  --my-font-md: 1.125rem;
+  --container-width: 45rem;
+  --color-brick: rgba(253, 253, 253, 1);
+}
+
 #parent {
   background-color: #ececec;
 }
@@ -6,6 +12,7 @@
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* Header */
 .header {
   height: 80px;
 }
@@ -20,7 +27,7 @@
 ul.navbar-nav li {
   padding: 8px;  font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--my-font-md);
   line-height: 31px;
 }
 
@@ -31,4 +38,39 @@ ul.navbar-nav li {
 .social a {
   padding: 8px;
   text-decoration: none;
+}
+
+/* Top Body */
+#top-container {
+  width: var(--container-width);
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.top-title {
+  width: var(--container-width);
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 70px;
+}
+
+.top-subtitle {
+  margin-top: 24px 0;
+  width: 724px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1D1F25;
+}
+
+#btn-learn-more {
+  padding: 15px 31.84px 16.59px 32px;
+  margin-bottom: 82px;
+  height: 62.59px;
+  background: #C26148;
+  border-radius: 3px;
+  color: var(--color-brick);
+  font-weight: 600;
+  font-size: var(--my-font-md);
+  line-height: 31px;
 }
