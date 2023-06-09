@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Cool HTML Page</title>
+    <style>
+        /* Your CSS styles based on the quiz answers */
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .highlight {
+            background-color: #ffcc00;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        }
+
+        .geometry-container {
+          display: flex;
+          margin: 0 auto;
+          width: 500px;
+          text-align: center;
+        }
+
+        .column {
+          flex: 1;
+          padding: 20px;
+          border: 1px solid #ccc;
+        }
+
+        .square {
+          width: 100px;
+          height: 100px;
+          background-color: orange;
+          animation: spin 5s infinite linear;
+        }
+
+        .circle {
+          width: 100px;
+          height: 100px;
+          background-color: chartreuse;
+          border-radius: 30%;
+          animation: spin 15s infinite linear;
+        }
+
+        .triangle {
+          width: 0;
+          height: 0;
+          border-left: 50px solid transparent;
+          border-right: 50px solid transparent;
+          border-bottom: 100px solid #ff0000;
+          animation: spin 10s infinite linear;
+        }
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Cool HTML Page</h1>
+        <p>
+            Congratulations on completing the HTML and CSS quiz! You did an awesome job.
+            Your answers have helped us generate this cool HTML page just for you.
+            We hope you enjoy it!
+        </p>
+        <p>
+          <div class="geometry-container">
+            <div class="column">
+              <h2>SQUARE</h2>
+              <div class="square"></div>
+            </div>
+            <div class="column">
+              <h2>CIRCLE</h2>
+              <div class="circle"></div>
+            </div>
+            <div class="column">
+              <h2>TRIANGLE</h2>
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </p>
+        <p>
+            Duis a lorem sed felis vestibulum auctor. Donec hendrerit mollis ex,
+            id finibus ligula vestibulum ut. Nulla facilisi.
+            Sed in tellus rutrum, ultricies ex non, lobortis erat.
+            <span class="highlight">Highlighted text</span> tortor.
+        </p>
+        <p>
+            Integer eu libero vitae urna congue efficitur vitae ut dui.
+            Aliquam in eleifend lorem. Vivamus sagittis ante ut nunc posuere,
+            non interdum ligula mattis. Nam et lectus non turpis tincidunt
+            ullamcorper et vitae nunc. <span class="highlight">Texto resaltado</span> justo eu massa
+            varius tristique. Suspendisse potenti.
+        </p>
+    </div>
+</body>
+</html>
