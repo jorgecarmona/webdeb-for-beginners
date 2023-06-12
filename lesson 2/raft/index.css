@@ -119,20 +119,54 @@ ul.navbar-nav li {
   margin-top: 23px;
 }
 
-.red {
-  color: red;
+.bottom-container {
+  height: 270px;
+  background-color: #C26148;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.black {
-  color: #000;
+.bottom-content {
+  text-align: center;
 }
 
-.large {
-  font-size: 48px;
-}
-
-.myClass {
-  color: red;
-  font-size: 48px;
+.bottom-container h2 {
+  color: #FDFDFD;;
   font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin-bottom: 40px;
+}
+
+.bottom-container button {
+  width: 169px;
+  height: 59px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FDFDFD;
+  background-color: transparent;
+  border: 2px solid #FDFDFD;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 70.39px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.footer div {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin: 0 10%;
 }
