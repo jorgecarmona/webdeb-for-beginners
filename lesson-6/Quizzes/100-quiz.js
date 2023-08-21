@@ -81,7 +81,11 @@ node /path/to/100-quiz.js
 
 // 14. Extend the previous if statement to check if 'temperature' is less than 15 and logs "It's cold!" to the console.
 
-// Math Operators
+/*
+==========================
+ Math Operators
+===========================
+*/
 // 15. Declare a constant named 'product' which is the result of multiplying 5 and 7.
 
 // console.log('[Question #15]: ', product); // should print 35
@@ -90,7 +94,11 @@ node /path/to/100-quiz.js
 
 // console.log('[Question #16]: ', remainder); // should print 3
 
-// Comparative Operators
+/*
+==========================
+ Comparative Operators
+===========================
+*/
 // 17. Check if 'numberVar' is equal to 5 using the strict equality operator.
 
 // console.log('[Question #17]: ', remainder); // should print true
@@ -99,7 +107,11 @@ node /path/to/100-quiz.js
 
 // console.log("[Question #18]: ", variableHere); // should print true
 
-// Logical Operators
+/*
+==========================
+ Logical Operators
+===========================
+*/
 // 19. Check if 'temperature' is less than 5 or greater than 29.
 
 // console.log("[Question #19]: ", variableHere); // should print true
@@ -108,7 +120,11 @@ node /path/to/100-quiz.js
 
 // console.log("[Question #20]: ", variableHere); // should print true
 
-// Assignment Operators
+/*
+==========================
+ Assignment Operators
+===========================
+*/
 // 21. Add 10 to 'temperature' using the += assignment operator.
 
 // console.log("[Question #21]: ", temperature); // should print 40
@@ -125,7 +141,6 @@ node /path/to/100-quiz.js
 
 // console.log("[Question #24]: ", typeHere); // should print 16
 
-// More Questions
 // 25. Check if the type of 'stringVar' is "string".
 
 // console.log("[Question #25]: ", typeHere); // should print true
@@ -227,3 +242,154 @@ node /path/to/100-quiz.js
 // 50. Write an if-else statement that checks if 'temperature' is above 25, logs "Too hot!", otherwise logs "Just right!".
 
 // console.log("[Question #50]: ", variable-or-expression); // should print Just right!
+
+/*
+==========================
+ Primitives
+===========================
+*/
+// 51. Declare a variable named 'city' of type let and assign it a value of "Paris".
+
+// console.log("[Question #51]: ", city); // should print Paris
+
+// 52. Create a constant named 'maxCount' with a value of 100.
+
+// console.log("[Question #52]: ", maxCount); // should print 100
+
+// 53. Let 'isVisible' be a variable that holds the value true.
+
+// console.log("[Question #53]: ", isVisible); // should print true
+
+/*
+==========================
+ Objects
+===========================
+*/
+// 54. Create an object named 'book' with keys 'title' and 'author' having values '1984' and 'George Orwell' respectively.
+
+// 55. Access the 'title' property of the 'book' object and store it in a variable named 'bookTitle'.
+
+// console.log("[Question #55]: ", bookTitle); // should print 1984
+
+// 56. Add a new property 'publishedYear' to 'book' and set its value to 1949.
+
+// console.log("[Question #56]: ", maxCount); // should print 100
+
+/*
+==========================
+ Array
+===========================
+*/
+// 57. Declare an array named 'planets' with values 'Mercury', 'Venus', and 'Earth'.
+
+// console.log("[Question #57]: ", planets); // should print array with above values
+
+// 58. Access the third element of 'planets' and store it in a variable named 'thirdPlanet'.
+
+// console.log("[Question #58]: ", thirdPlanet); // should print Earth
+
+// 59. Add 'Mars' to the start of the 'planets' array using an appropriate method.
+
+// console.log("[Question #59]: ", planets); // should print ['Mars', 'Mercury', 'Venus', 'Earth']
+
+/*
+==========================
+ let and const
+===========================
+*/
+// 60. Create a variable of type let named 'weight' and assign it a value of 60.
+
+// console.log("[Question #60]: ", weight); // should print 60
+
+// 61. Change the value of 'weight' to 65.
+
+// console.log("[Question #61]: ", weight); // should print 65
+
+/*
+==========================
+ If Statements
+===========================
+*/
+// 62. Write an if statement that checks if 'weight' is less than 58 and logs "Underweight" to the console.
+
+// 63. Extend the previous if statement with an else if to check if 'weight' is over 70 and logs "Overweight" to the console.
+
+/*
+==========================
+ Math Operators
+===========================
+*/
+// 64. Declare a constant named 'radius' with a value of 7.
+
+// console.log("[Question #64]: ", radius); // should print 7
+
+// 65. Calculate the area of a circle using 'radius' (area = πr^2) and store it in a variable named 'circleArea'.
+
+// console.log("[Question #65]: ", circleArea); // should print 153.93804002589985
+
+/*
+==========================
+ Comparative Operators
+===========================
+*/
+// 66. Check if 'weight' is less than or equal to 65.
+// 67. Confirm that 'city' is strictly not equal to "London".
+
+/*
+==========================
+ Logical Operators
+===========================
+*/
+// 68. Check if 'isVisible' is false using the NOT operator.
+
+// console.log("[Question #68]: ", expression); // should print true
+
+// 69. Verify if 'city' is "Paris" or 'bookTitle' is "Brave New World".
+
+// console.log("[Question #69]: ", expression); // should print true
+
+/*
+==========================
+ Assignment Operators
+===========================
+*/
+// 70. Increment 'weight' by 1 using the appropriate operator.
+
+// console.log("[Question #70]: ", expression); // should print 66
+
+// 71. Halve the value of 'weight' using the /= operator.
+
+// console.log("[Question #71]: ", expression); // should print 33
+
+// 72. Confirm that 'city' is a type of string using the typeof operator.
+
+// console.log("[Question #70]: ", expression); // should print true
+
+// 73. Declare an array named 'days' and add 'Monday' and 'Tuesday' to it.
+// 74. Remove the first element from 'planets' array.
+// 75. Determine if the length of 'city' is strictly greater than 6.
+// 76. Check if 'maxCount' is less than or equal to 105.
+// 77. Check if 'isVisible' is a type of boolean.
+// 78. Add 25 to 'circleArea' using the += assignment operator.
+// 79. Find out if 'book' has a property named 'genre'.
+// 80. Check if 'days' array has exactly 2 elements.
+// 81. Using the ternary operator, check if 'isVisible' is true and assign "visible" or "not visible" to a variable named 'status'.
+// 82. Confirm that 'planets' does not include 'Jupiter'.
+// 83. Check if 'radius' is between 5 and 10 using logical operators.
+// 84. Calculate the perimeter of the circle using 'radius' (perimeter = 2πr) and store it in a variable named 'circlePerimeter'.
+// 85. Check if 'city' contains the substring "ar".
+// 86. Declare a variable 'cubeVolume' and assign it the result of cubing 'radius' (volume = s^3).
+// 87. Determine if 'bookTitle' ends with the word "1984".
+// 88. Check if the 'days' array is not empty.
+// 89. Add a new key-value pair 'pages' and '328' to the 'book' object.
+// 90. Write an if-else statement that checks if 'circleArea' is above 150, logs "Large Circle", otherwise logs "Small Circle".
+// 91. Use the AND operator to check if 'weight' is more than 50 and less than 70.
+// 92. Declare a variable 'squareArea' and assign it the result of squaring 'radius'.
+// 93. Check if 'bookTitle' starts with the word "The".
+// 94. Using the appropriate method, reverse the order of elements in the 'planets' array.
+// 95. Convert 'weight' into a string and store it in a variable named 'weightStr'.
+// 96. Compare 'weight' and 'weightStr' using the loose equality operator.
+// 97. Create an array named 'numbers' and fill it with numbers 1 through 5.
+// 98. Find out if 'book' has a property named 'isbn'.
+// 99. Calculate the difference between 'circlePerimeter' and 'squareArea' and store it in a variable named 'shapeDifference'.
+// 100. Create an object named 'album' with properties 'name', 'artist', and 'releaseYear'.
