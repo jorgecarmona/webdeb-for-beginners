@@ -1,0 +1,185 @@
+/* Basic Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #171520;
+  font-size: 20px;
+  color: #b3b2b8;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #252335;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex ;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 0;
+  margin-right: 20px;
+}
+
+ul.list {
+  list-style-type: disc;
+  display: block;
+  padding: 20px 40px;
+}
+
+ul.list li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFB200;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #E76C60;
+}
+
+.code-block {
+  background-color: #b3b2b8;
+  color: #252335;
+  padding: 20px;
+  margin: 40px;
+}
+
+.code-block a {
+  color: #252335;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.submenu {
+  display: none;
+}
+
+.disabled {
+  color: #777582;
+}
+
+.nav li:last-child {
+  position: relative;
+}
+
+.soon::after {
+  content: 'Coming Soon';
+  background: #FFB200;
+  padding: 6px;
+  color: #252335;
+  border-radius: 16px;
+  font-size: 12px;
+  position: absolute;
+  top: -4px;
+  left: 60px;
+  width: 100px;
+}
+
+/* Landing Page Content */
+.container {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.blocks .content {
+  flex: 1;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  position: relative;
+}
+
+nav li:hover .submenu {
+  display: block;
+  position: absolute;
+}
+
+.submenu {
+  width: 200px;
+  background-color: #252335;
+  color: #171520;
+  text-align: left;
+}
+
+.submenu li {
+  border-bottom: 1px solid #252335;
+  padding: 10px;
+}
+
+.content {
+  padding: 35px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E35A93;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #E13E4D;
+}
+
+footer {
+  flex-basis: 18px;
+}
+
+/* Additional color options for future use:
+  #7486BD, #E76C60, #73F1B3, #FFB200
+*/
+
+/*=======================================
+    TABLET & DESKTOP BREAKPOINTS
+=========================================*/
+@media all and (min-width: 479px) {
+  header {
+    flex-direction: row;
+  }
+
+  .logo { flex: 1; }
+  nav { 
+    flex: 4;
+  }
+}

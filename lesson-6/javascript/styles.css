@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.post {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+#heartIcon {
+  font-size: 20px;
+  margin-right: 5px;
+  transition: color 0.3s;
+}
+
+.liked {
+  color: red;
+}

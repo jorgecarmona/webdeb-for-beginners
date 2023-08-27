@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.content-container {
+  display: flex;
+}
+
+aside {
+  flex: 2;
+  background-color: khaki;
+}
+
+main {
+  flex: 5;
+}
+
+.heading {
+  width: 100%;
+  height: 100px;
+  background-color: darkmagenta;
+}
+
+.content {
+  padding: 20px;
+  height: 520px;
+  /* overflow: auto; */
+}
+
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+p .view-more {
+  color: orange;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.view-more::after {
+  content: '';
+  border-bottom: 2px solid blue;
+  display: block;
+  height: 10px;
+  width: 85px;
+}
+
+.view-more:hover::after {
+  width: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.my-button {
+  background: blue;
+  color: white;
+  width: 250px;
+  height: 40px;
+}
+
+.word {
+  color: red;
+}

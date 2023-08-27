@@ -1,0 +1,112 @@
+:root {
+  --dark: #0F1629;
+  --white: #fff;
+  --danger: #EF3C4E;
+  --info: #4C86C6;
+  --info-dark: #24344B;
+  --warning: #FFD169;
+  --success: #4DBD97;
+  --success-light: #C1E4E6;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: var(--white)
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*=======================================
+    Desktop First
+=========================================*/
+.header-section {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  flex: 1;
+  padding: 16px;
+  background-color: var(--dark);
+}
+
+nav {
+  flex: 4;
+  padding: 16px;
+  background-color: var(--danger);
+}
+
+.hero {
+  padding: 16px;
+  background-color: var(--info);
+  height: 400px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  padding: 16px;
+  background-color: var(--info-dark);
+  height: 270px;
+  flex: 1;
+}
+
+.extras {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 240px;
+}
+
+.extra {
+  padding: 16px;
+  background-color: var(--success);
+  height: 135px;
+}
+
+.image {
+  padding: 16px;
+  background-color: var(--success-light);
+  height: 135px;
+}
+
+.banner {
+  padding: 16px;
+  background-color: var(--warning);
+  height: 135px;
+}
+
+
+/*=======================================
+    Mobile BREAKPOINTS
+=========================================*/
+@media all and (max-width: 479px) {
+  .header-section {
+    flex-direction: column;
+  }
+
+  .main-container {
+    min-height: 100%;
+    flex-direction: column;
+  }
+
+  .hero, main {
+    height: 170px;
+  }
+
+  .extras {
+    padding-left: 0;
+  }
+}

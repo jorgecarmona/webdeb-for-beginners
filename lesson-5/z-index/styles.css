@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.padre,
+.hijo,
+.nieto,
+.biscanieto {
+  padding: 20px;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+.padre {
+  background-color: #94ADD7;
+}
+
+.hijo {
+  background-color: #ACFADF;
+}
+
+.nieto {
+  background-color: #E8FFCE;
+  /* position: relative; */
+}
+
+.biscanieto {
+  background-color: #7C73C0;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
