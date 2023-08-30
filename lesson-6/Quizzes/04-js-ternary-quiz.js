@@ -1,10 +1,5 @@
 /**
  * This quiz is to test your knowledge of Teranary Operator.
- *
- * 1. Create a repository by cloning: https://github.com/jorgecarmona/npm-project-template
- * 2. Follow the README for instructions
- * 3. When you finish the quiz, create a PR on you repository
- * 4. Submit to your lead
  */
 
 /**
