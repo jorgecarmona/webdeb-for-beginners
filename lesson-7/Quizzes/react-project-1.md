@@ -6,7 +6,7 @@ Create a React application using create-react-app and build atomic components ba
 
 ### Part 1: Setting Up
 
-- Initialize a new React application using create-react-app. Name your application react-beginner-quiz.
+- Initialize a new React application using create-react-app. Name your application react-project-1.
 
 ### Part 2: Component Creation
 
